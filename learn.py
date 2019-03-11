@@ -16,7 +16,7 @@ class Word:
         self.positive = positive
         self.negative = negative
         self.neutral =  neutral
-        self.total_occurances =total_occurances
+        self.total_occurances = total_occurances
         self.positivity = positivity
         self.negativity = negativity
     
