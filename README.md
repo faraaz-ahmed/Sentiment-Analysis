@@ -1,10 +1,7 @@
-# Review-Analysis
+This repository contains front-end exevution of sentiment analysis!
 
-hello mahesh, take your time and understand the code i have implemented our algorithm for sentiment analysis same as in our ppt.
-maybe we can find better approaches from net as my accuracy for this is very less (0.5000075).
-i didnt find any need to preprocess since our data was clean, (without unnecessary spelling mistakes, emojis, or irregular characters)
+I have used node.js for server side, front end is plain bootstrap.
 
-im reading input from text file
-im noting [word, P(positivity), P(negativity)] in "dictionary_contents.txt" file, so please take a look at it
-right now i have ran the code for test data and accuracy was only 0.5,
-
+new modules used : 
+Spawn(): Node.js module used to create child process inorder to integrate python code's output into node.js 
+Pickle() : python module used for storing objects to be later used by another module, usefule for storing the knowledge gained after training so that we won't need to train it again and again each time we get request from client.
