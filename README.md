@@ -1,4 +1,4 @@
-This repository contains front-end exevution of sentiment analysis!
+This repository contains front-end execution of sentiment analysis!
 
 I have used node.js for server side, front end is plain bootstrap.
 
